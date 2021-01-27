@@ -1,6 +1,6 @@
 const request = require('request');
 
-
+//we will be using this to create an api that returns our temp
 const forecast =(address,longitude,latitude,callback)=>{
     
     const url ='https://api.openweathermap.org/data/2.5/weather?q='+address+'&appid=05e736b7b94cc6a66c4077442a313969'
